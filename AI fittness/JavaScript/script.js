@@ -36,7 +36,7 @@ chating.addEventListener("click", () => {
     }
 })
 
-let Api_url="https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyDygRJte2wSqx6-tdXANYT9gxIygWp5laI"
+let Api_url=""
 
 async function generateApiResponse(aiChatBox) {
 const textElement=aiChatBox.querySelector(".text")
